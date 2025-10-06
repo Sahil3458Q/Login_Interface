@@ -77,9 +77,6 @@ def update_video():
 
 update_video() 
 
-overlay = Frame(root, bg="black") 
-overlay.place(relx=0.5, rely=0.1, anchor="center")
-
 frame1 = Frame(master=root , borderwidth=6, relief=SUNKEN, background="grey", width=500, height=100)
 frame1.place(relx=0.5, rely=0.15, anchor="center")
 
